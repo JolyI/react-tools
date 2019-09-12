@@ -1,10 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
+
+import Home from './pages/Home/index'
 
 function App() {
   return ( 
-  < div className = "App" >
-
+    < div className = "App" >
+      <Home />
     </div>
   );
 }
